@@ -1,0 +1,4 @@
+Algorithm,Runs,Average Runtime (s),Median Runtime (s),Minimum Runtime (s),Maximum Runtime (s)
+Isolation Forest,10,0.188525,0.187916,0.166014,0.212905
+LOF,10,0.005335,0.004759,0.003526,0.009626
+One-Class SVM,10,0.013521,0.013612,0.009485,0.016607

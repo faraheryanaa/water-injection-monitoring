@@ -1,0 +1,4 @@
+Algorithm,Anomalies,Normal,Runtime (seconds)
+Isolation Forest,66,1237,0.172415
+LOF,66,1237,0.007282
+One-Class SVM,66,1237,0.011393
