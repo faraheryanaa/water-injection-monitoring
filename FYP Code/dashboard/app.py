@@ -2,6 +2,7 @@ import time
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
+from pathlib import Path
 
 
 # ==================================================
@@ -19,7 +20,10 @@ st.set_page_config(
 # LOAD DATA
 # ==================================================
 
-DATA_PATH = "../data/processed/dashboard_data.xlsx"
+APP_DIR = Path(__file__).resolve().parent
+PROJECT_DIR = APP_DIR.parent
+
+DATA_PATH = PROJECT_DIR / "data" / "processed" / "dashboard_data.xlsx"
 
 df = pd.read_excel(DATA_PATH)
 
